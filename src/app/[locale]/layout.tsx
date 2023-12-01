@@ -28,7 +28,7 @@ export default function LocaleLayout({
 
   return (
     <html className={inter.variable} lang={locale}>
-      <body className="bg-black">{children}</body>
+      <body className="bg-black text-white antialiased">{children}</body>
     </html>
   );
 }

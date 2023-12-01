@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 
 import './globals.css';
 
-import { locales } from '@/intl-utils';
+import { locales } from '@/intl/utils';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
